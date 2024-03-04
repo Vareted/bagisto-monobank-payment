@@ -1,0 +1,25 @@
+{
+    "name": "vareted/bagisto-monobank-payment",
+    "description": "Monobank payment system module for Laravel Bagisto. Integrate Monobank payment system into your Laravel Bagisto web store, enabling convenient and secure payments through Monobank.",
+    "keywords": [
+        "bagisto",
+        "monobank",
+        "bagito monobank",
+        "monobank payment"
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vareted\\Monobank\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Denys Krasnokutskyi",
+            "email": "vareted@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "plakidan/monobank-pay": "^0.1.1"
+    }
+}
